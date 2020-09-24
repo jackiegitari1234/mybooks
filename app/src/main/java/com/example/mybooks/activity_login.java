@@ -1,10 +1,11 @@
-package com.example.myapplication;
+package com.example.mybooks;
 
 import android.content.Intent;
 import android.os.Bundle;
 
-import com.example.myapplication.SQL.DatabaseHelper;
-import com.example.myapplication.helpers.InputValidation;
+import com.example.mybooks.R;
+import com.example.mybooks.SQL.DatabaseHelper;
+import com.example.mybooks.helpers.InputValidation;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.snackbar.Snackbar;
 import com.google.android.material.textfield.TextInputEditText;
@@ -30,6 +31,7 @@ public class activity_login extends AppCompatActivity implements View.OnClickLis
     private EditText editTextEmail;
     private TextView textViewPassword;
     private EditText editTextPassword;
+
     private Button buttonLogin;
     private TextView textViewLinkRegister;
     private InputValidation inputValidation;

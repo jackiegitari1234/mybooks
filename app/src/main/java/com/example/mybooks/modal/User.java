@@ -1,4 +1,4 @@
-package com.example.myapplication.modal;
+package com.example.mybooks.modal;
 
 public class User {
 

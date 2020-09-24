@@ -1,4 +1,4 @@
-package com.example.myapplication;
+package com.example.mybooks;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
@@ -14,9 +14,10 @@ import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.example.myapplication.SQL.DatabaseHelper;
-import com.example.myapplication.helpers.InputValidation;
-import com.example.myapplication.modal.User;
+import com.example.mybooks.R;
+import com.example.mybooks.SQL.DatabaseHelper;
+import com.example.mybooks.helpers.InputValidation;
+import com.example.mybooks.modal.User;
 import com.google.android.material.snackbar.Snackbar;
 import com.google.android.material.textfield.TextInputEditText;
 import com.google.android.material.textfield.TextInputLayout;

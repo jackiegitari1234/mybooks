@@ -1,4 +1,4 @@
-package com.example.myapplication.SQL;
+package com.example.mybooks.SQL;
 
 import android.content.ContentValues;
 import android.content.Context;
@@ -6,7 +6,7 @@ import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
-import com.example.myapplication.modal.User;
+import com.example.mybooks.modal.User;
 
 import java.util.ArrayList;
 import java.util.List;
